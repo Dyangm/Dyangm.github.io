@@ -6,18 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  一生快乐
+title:  I am Dyangm
 subtitle: 分享快乐，品味人生
 name: Dyangm
 email: 441985997@qq.com
 description: 本站是一生快乐的技术分享博客。内容涵盖生活故事、Golang后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
 keywords: dyangm,一生快乐,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
 encoding: "utf-8"
-favicon: favicon.ico 
+favicon: favicon.png # Image must be in assets/images
 
 repository: dyangm/dyangm.github.io
 github_url: https://github.com/Dyangm
-url: http://www.dyangm.com
+url: https://dyangm.github.io
 enforce_ssl: dyangm.com
 
 ## Gem
@@ -43,73 +43,39 @@ defaults: []
 kramdown:
   input: GFM
   enable_coderay: true
-  syntax_highlighter: rouge
+  #syntax_highlighter: rouge
 
 syntax_highlighter_opts:
    coderay_line_numbers:  nil
 
 # Pagination
-paginate: 12
+paginate: 10
 paginate_path: 'page:num'
 
 # Navigation. top menu list
 
 # Navigation. main menu list
-navs:
 
+navs:
   -
     href: /
     label: Home
 
   -
-    href: /spring-boot.html
-    label: Spring Boot
-    target: _self
-    subnav:
-
-      -
-        subHref: /spring-boot.html
-        subLabel: Spring Boot
-
-      -
-        subHref: /spring-cloud.html
-        subLabel: Spring Cloud
+    href: /open-source
+    label: Open-Source
 
   -
-    href: /spring-cloud.html
-    label: Spring Cloud
-    target: _self
+    href: /blog
+    label: Blog
 
   -
-    
-    href: http://www.justdojava.com
-    label: Java
-    target: _blank
-    subnav:
-
-      -
-        subHref: /java.html
-        subLabel: Jvm 系列文章
-        
-      -
-        subHref: http://www.justdojava.com
-        subLabel: Java 极客技术
-        target: _blank
+    href: /bookmark
+    label: Bookmark
 
   -
-    
-    href: /python.html
-    label: Python
-    subnav:
-
-      -
-        subHref: /python.html
-        subLabel: Python 教程
-        
-      -
-        subHref: http://www.justdopython.com
-        subLabel: Python 技术
-        target: _blank
+    href: /about
+    label: About
 
   -
     href: /archives.html
