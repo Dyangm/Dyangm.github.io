@@ -31,15 +31,8 @@ lock: need
 
 十年系列文章：
 
-- [① 我是如何走向程序生涯](http://www.ityouknow.com/life/2019/06/12/ten-years-of-program-career.html)
 
-- [② 毕业即失业，找工作找到怀疑人生](http://www.ityouknow.com/life/2019/08/10/jobless.html)
-
-- [③深圳流水线工厂，我差点和主管打了起来](http://www.ityouknow.com/life/2019/08/13/shenzhen-10year.html)
-
-- [④富士康14跳被我赶上了，流水线车间真的没有梦想](http://www.ityouknow.com/life/2019/09/12/fushikang-10year.html)
-
-- [⑤我在培训机构折腾的经历，再和大家聊聊这个行业](http://www.ityouknow.com/life/2019/10/31/training-10year.html)
+- [1.第一次写的博客](http://www.ityouknow.com/life/2019/10/31/training-10year.html)
 
 ## 2.我的第一份工作
 

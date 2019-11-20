@@ -10,8 +10,6 @@ title:  I am Dyangm
 subtitle: 分享快乐, 品味人生
 name: Dyangm
 email: 441985997@qq.com
-location: Nice, China Hangzhou
-
 description: 本站是一生快乐的技术分享博客。内容涵盖生活故事、Golang后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
 keywords: dyangm,一生快乐,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
 encoding: "utf-8"
@@ -45,7 +43,7 @@ defaults: []
 kramdown:
   input: GFM
   enable_coderay: true
-  #syntax_highlighter: rouge
+  syntax_highlighter: rouge
 
 syntax_highlighter_opts:
    coderay_line_numbers:  nil
@@ -55,7 +53,6 @@ paginate: 10
 paginate_path: 'page:num'
 
 # Navigation. top menu list
-
 # Navigation. main menu list
 
 navs:
@@ -85,38 +82,14 @@ navs:
     target: _self
 
 
-# selected articles
-classes:
-
-  -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
-
-  -
-    href: /it.html
-    name: IT行业深度报道
-    describe: IT大佬，互联网知名公司的故事
-
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
-
-
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
-
 # Sidebar to show popular repo
-side_bar_repo_limit: 6 # Number of repos to show
+side_bar_repo_limit: 5 # Number of repos to show
 
 # Google Analytics
-# analytics :
-# provider : google
-#   google :
-#     tracking_id : ''  # ex. UA-72165600-X
+analytics :
+  provider : google
+  google :
+    tracking_id : 'ex. UA-72165600-X'
 
 
 # For about.html. Fell free to create your own!
@@ -124,30 +97,3 @@ skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
 skill_mobile_app_keywords: [vuejs, hyhird app]
-
-
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: dyangm
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: dyangm
-    repo: blog-comments
-    oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: dyangm
-    repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
