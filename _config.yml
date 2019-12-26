@@ -69,10 +69,6 @@ navs:
     label: Blog
 
   -
-    href: /bookmark
-    label: Bookmark
-
-  -
     href: /about
     label: About
 
